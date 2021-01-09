@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: honeydew;
+    background-color: rgb(44, 59, 107);
+}
+@media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+#header{
+    position: fixed;
+  top: 0;
+  width: 100%;
+  max-height: 70px;
+  overflow: hidden;
+    padding: 0px 20px;
+    display: flex;
+    background-color: rgb(44, 59, 107);
+    justify-content: space-between;
+     align-items: center;
+     height: 100%;
+     overflow: auto;
+}
+#header img{
+    position: relative;
+    max-width: 50px;
+    right :40%;
+    
+
+}
+a{
+    text-decoration: none;
+}
+header h1{
+    margin-left: 7%;
+}
+h1,h2{
+    margin: 10px 20px;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav a{
+    
+    color: honeydew;
+    padding: 5px 10px;
+    margin: 0 30px;
+}
+nav a:hover{
+    border-bottom: honeydew solid 2px;
+  
+}
+#features{
+    text-align: center;
+
+}
+p{
+    font-size: large;
+    margin: 20px;
+}
+label{
+    font-size: large;
+
+}
+input {
+    padding: 7px;
+}
+#quality{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+}
+#quality h3{
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+#quality p{
+    position: relative;
+    left :80px;
+    bottom: 60px;
+}
+#quality {
+    margin :20px 110px;
+}
+#home {
+    min-height: 500px;
+    margin-top: 200px;
+    
+}
+#home h1,p {
+    margin: 10px 100px;
+}
+#home #video{
+    margin :20px 500px;
+    justify-content:right;
+    
+}
+#contact{
+    text-align: center;
+    font-weight: bolder;
+    margin: 100px;
+    padding: 100px;
+}
+#contact h1{
+ margin: 60px;
+}
+#contact a{
+    padding: 40px;
+    margin-top: 60px;
+    color: inherit;
+}
+
